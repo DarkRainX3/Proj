@@ -24,7 +24,7 @@ public class InventoryManager {
 	// "[DATABASE NAME]" blank to get a connection and create one with the createDB() method.
 	public String connectionInfo = "jdbc:mysql://localhost:3306/InventoryDB?verifyServerCertificate=false&useSSL=true",  
 				  login          = "root",
-				  password       = "Student";
+				  password       = "619student";
 	/**
 	 * Constructor for inventory manager application
 	 */
@@ -224,7 +224,7 @@ public class InventoryManager {
 		InventoryManager inventory = new InventoryManager();
 		
 		// You should comment this line out once the first database is created (either here or in MySQL workbench)
-		//inventory.createDB();
+//		inventory.createDB();
 
 		inventory.createTable();
 		

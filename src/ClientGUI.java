@@ -448,7 +448,14 @@ public class ClientGUI {
 	 * @return: integer value
 	 */
 	public int getRdbSelected() {
-		return rdbSelected;
+		if (rdbtnClientId.isSelected()) {
+			return 1;
+		}
+		else if (rdbtnLastName.isSelected()) {
+			return 2;
+		}
+		else
+			return 3;
 	}
 	/**
 	 * setter for the integer rdbSelected

@@ -9,14 +9,14 @@ public class ClientSystem {
 
 		ClientManager db = new ClientManager();
 		ClientGUI gui = new ClientGUI();
-		//db.createDB();
-		//db.createTable();
-		//db.fillTable();
-		//db.removeTable();
+//		db.createDB();
+//		db.createTable();
+//		db.fillTable();
+//		db.removeTable();
 		
 		ClientController controller = new ClientController (gui, db);
 		
-		gui.makeVisable();
+		controller.run();
 	}
 
 }

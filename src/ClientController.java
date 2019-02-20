@@ -151,4 +151,8 @@ public class ClientController {
 			}
 		});
 	}
+	
+	public void run() {
+		gui.makeVisable();
+	}
 }

@@ -18,7 +18,7 @@ public class ClientManager {
 	public String databaseName = "ClientDB", tableName = "ClientTable", dataFile = "clients.txt";
 	public String connectionInfo = "jdbc:mysql://localhost:3306/ClientDB?verifyServerCertificate=false&useSSL=true",  
 				  login          = "root",
-				  password       = "Student";
+				  password       = "619student";
 	/**
 	 * Constructor for the client manager application
 	 */
